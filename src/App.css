@@ -1,0 +1,98 @@
+body {
+  background: #f3f3f3;
+  text-align: center;
+  height: 100vh; /* Tam ekran yüksekliği */
+  display: flex; /* Flexbox ile ortalamayı başlat */
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+  margin: 0; /* Sayfa kenar boşluklarını sıfırla */
+}
+
+.App {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  width: 500px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: x-large;
+  text-align: center;
+  color: #327c35;
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline;
+  width: 10%;
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #555;
+  font-weight: bold;
+}
+
+.reset {
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(240, 63, 63, 0.884);
+  width: 40%;
+  font-size: 16px;
+}
+
+.submit {
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #4caf50;
+  width: 40%;
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+  width: 98%;
+  min-height: 100px;
+  max-height: 150px;
+}
